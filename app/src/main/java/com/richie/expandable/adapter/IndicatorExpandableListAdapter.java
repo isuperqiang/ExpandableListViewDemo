@@ -13,7 +13,7 @@ import com.richie.expandable.R;
 
 /**
  * @author Richie on 2017.07.31
- *         ExpandableListView 的适配器
+ *         改过 Indicator 的 ExpandableListView 的适配器
  */
 public class IndicatorExpandableListAdapter extends BaseExpandableListAdapter {
     private static final String TAG = "IndicatorExpandableList";

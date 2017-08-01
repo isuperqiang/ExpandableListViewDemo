@@ -50,14 +50,4 @@ public class IndicatorExpandActivity extends AppCompatActivity {
         });
     }
 
-    // 每次展开一个分组后，关闭其他的分组
-    private boolean expandOnlyOne(ExpandableListView view, int expandedPosition, int groupLength) {
-        boolean result = true;
-        for (int i = 0; i < groupLength; i++) {
-            if (i != expandedPosition && view.isGroupExpanded(i)) {
-                result &= view.collapseGroup(i);
-            }
-        }
-        return result;
-    }
 }

@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * 使用 SimpleExpandableListAdapter 实现适配器
+ * 使用 SimpleExpandableListAdapter 实现适配器，虽然参数很变态，但为了学习还是拼了 %>_<%
  */
 public class SimpleExpandActivity extends AppCompatActivity {
     private static final String TAG = "SimpleExpandActivity";

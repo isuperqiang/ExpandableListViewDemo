@@ -1,2 +1,11 @@
 # ExpandableListViewDemo
-A simple sample of ExpandableListView
+
+该项目是对 ExpandableListView 使用的简单总结，包括 API 的使用和一些小技巧。
+
+**几个要点：**
+
+* 支持点击分组后关闭其他的分组，默认是点开哪个展开哪个，各个分组互不影响；
+* 支持自定义分组展开和折叠的指示器，效果还是不错的；
+* 系统提供的简单适配器参数复杂，使用起来不方便，建议还是自己定义适配器；
+
+以后有其他的更新，我还会补充，欢迎各位 star & fork~ \\(^o^)/!

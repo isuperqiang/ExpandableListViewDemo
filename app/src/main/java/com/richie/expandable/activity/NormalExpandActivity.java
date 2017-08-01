@@ -13,7 +13,7 @@ import com.richie.expandable.adapter.NormalExpandableListAdapter;
 import com.richie.expandable.adapter.onGroupExpandedListener;
 
 /**
- * 普通 ExpandableListView，支持展开一个子项
+ * 普通 ExpandableListView，支持只展开一个子项
  */
 public class NormalExpandActivity extends AppCompatActivity {
     private static final String TAG = "NormalExpandActivity";

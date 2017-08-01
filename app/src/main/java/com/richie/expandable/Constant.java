@@ -2,6 +2,7 @@ package com.richie.expandable;
 
 /**
  * @author Richie on 2017.07.31
+ *         常量类
  */
 public final class Constant {
     public static final String[] BOOKS = {"西游记", "水浒传", "三国演义", "红楼梦"};

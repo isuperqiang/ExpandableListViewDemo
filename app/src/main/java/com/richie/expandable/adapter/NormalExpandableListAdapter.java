@@ -11,7 +11,7 @@ import com.richie.expandable.R;
 
 /**
  * @author Richie on 2017.07.31
- *         ExpandableListView 的适配器
+ *         普通的 ExpandableListView 的适配器
  */
 public class NormalExpandableListAdapter extends BaseExpandableListAdapter {
     private static final String TAG = "NormalExpandableListAda";

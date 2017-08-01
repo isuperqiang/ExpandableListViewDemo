@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="简单 ExpandableListView"
+        android:text="简单适配器 ExpandableListView"
         android:textAllCaps="false"/>
 
     <Button
@@ -17,7 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="普通 ExpandableListView"
+        android:text="只展开一个 ExpandableListView"
         android:textAllCaps="false"/>
 
     <Button
@@ -25,7 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="定制 Indicator ExpandableListView"
+        android:text="个性化指示器 ExpandableListView"
         android:textAllCaps="false"/>
 
 </LinearLayout>
