@@ -49,7 +49,7 @@ public class IndicatorExpandableListAdapter extends BaseExpandableListAdapter {
 
     @Override
     public int getChildrenCount(int groupPosition) {
-        return childData.length;
+        return childData[groupPosition].length;
     }
 
     @Override

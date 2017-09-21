@@ -35,7 +35,7 @@ public class NormalExpandableListAdapter extends BaseExpandableListAdapter {
 
     @Override
     public int getChildrenCount(int groupPosition) {
-        return childData.length;
+        return childData[groupPosition].length;
     }
 
     @Override
