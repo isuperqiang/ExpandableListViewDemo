@@ -4,7 +4,7 @@ package com.richie.expandable.adapter;
  * @author Richie on 2017.07.31
  *         分组展开监听器
  */
-public interface onGroupExpandedListener {
+public interface OnGroupExpandedListener {
     /**
      * 分组展开
      *

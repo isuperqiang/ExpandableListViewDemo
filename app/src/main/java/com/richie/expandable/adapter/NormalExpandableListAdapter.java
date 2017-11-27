@@ -17,14 +17,14 @@ public class NormalExpandableListAdapter extends BaseExpandableListAdapter {
     private static final String TAG = "NormalExpandableListAda";
     private String[] groupData;
     private String[][] childData;
-    private onGroupExpandedListener mOnGroupExpandedListener;
+    private OnGroupExpandedListener mOnGroupExpandedListener;
 
     public NormalExpandableListAdapter(String[] groupData, String[][] childData) {
         this.groupData = groupData;
         this.childData = childData;
     }
 
-    public void setOnGroupExpandedListener(onGroupExpandedListener onGroupExpandedListener) {
+    public void setOnGroupExpandedListener(OnGroupExpandedListener onGroupExpandedListener) {
         mOnGroupExpandedListener = onGroupExpandedListener;
     }
 

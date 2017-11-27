@@ -21,7 +21,7 @@ public class IndicatorExpandableListAdapter extends BaseExpandableListAdapter {
     private String[][] childData;
     //                用于存放Indicator的集合
     private SparseArray<ImageView> mIndicators;
-    private onGroupExpandedListener mOnGroupExpandedListener;
+    private OnGroupExpandedListener mOnGroupExpandedListener;
 
     public IndicatorExpandableListAdapter(String[] groupData, String[][] childData) {
         this.groupData = groupData;
@@ -29,7 +29,7 @@ public class IndicatorExpandableListAdapter extends BaseExpandableListAdapter {
         mIndicators = new SparseArray<>();
     }
 
-    public void setOnGroupExpandedListener(onGroupExpandedListener onGroupExpandedListener) {
+    public void setOnGroupExpandedListener(OnGroupExpandedListener onGroupExpandedListener) {
         mOnGroupExpandedListener = onGroupExpandedListener;
     }
 

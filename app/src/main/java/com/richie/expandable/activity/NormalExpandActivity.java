@@ -10,7 +10,7 @@ import android.widget.Toast;
 import com.richie.expandable.Constant;
 import com.richie.expandable.R;
 import com.richie.expandable.adapter.NormalExpandableListAdapter;
-import com.richie.expandable.adapter.onGroupExpandedListener;
+import com.richie.expandable.adapter.OnGroupExpandedListener;
 
 /**
  * 普通 ExpandableListView，支持只展开一个子项
@@ -24,7 +24,7 @@ public class NormalExpandActivity extends AppCompatActivity {
         setContentView(R.layout.activity_expand);
         final ExpandableListView listView = (ExpandableListView) findViewById(R.id.expandable_list);
         final NormalExpandableListAdapter adapter = new NormalExpandableListAdapter(Constant.BOOKS, Constant.FIGURES);
-        adapter.setOnGroupExpandedListener(new onGroupExpandedListener() {
+        adapter.setOnGroupExpandedListener(new OnGroupExpandedListener() {
 
             @Override
             public void onGroupExpanded(int groupPosition) {
