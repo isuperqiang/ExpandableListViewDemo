@@ -3,15 +3,16 @@
           package="com.richie.expandable">
 
     <application
-        android:allowBackup="true"
+        android:allowBackup="false"
+        android:maxAspectRatio="2.4"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:supportsRtl="true"
+        android:resizeableActivity="false"
+        android:supportsRtl="false"
         android:theme="@style/AppTheme">
         <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
-
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
